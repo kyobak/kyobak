@@ -1,0 +1,14 @@
+# 영상·이미지 파일 커밋 차단 (privacy-rules 7번)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+!apps/web/public/**/*.png
+vision/eval/data/
+vision/**/runs/
+*.pt
+.env
+.env.local
